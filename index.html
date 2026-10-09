@@ -17,11 +17,11 @@
     --ink:#252855;
     --ink-2:#4A4E78;
     --ink-3:#8A8DAA;
-    --coral:#D97D7E;
-    --coral-2:#CE6668;
-    --coral-soft:#D9A5A6;
-    --sage:#7FBEB0;
-    --sage-deep:#7FBEB0;
+    --coral:#EF8A8B;
+    --coral-2:#E37072;
+    --coral-soft:#EFB6B7;
+    --sage:#8CD1C2;
+    --sage-deep:#8CD1C2;
     --line:#D3D4DD;
     --serif:"Newsreader",Georgia,"Times New Roman",serif;
     --sans:"Space Grotesk",ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
@@ -140,7 +140,7 @@
   /* article filter as a select */
   .artsel{width:100%;font-family:var(--mono);font-size:11.5px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 30px 9px 11px;cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23252855' stroke-width='1.6'><path d='M1 1.5 6 6.5 11 1.5'/></svg>");background-repeat:no-repeat;background-position:right 11px center;background-size:11px;line-height:1.3;transition:.13s}
   .artsel:hover{border-color:var(--coral)}
-  .artsel:focus{outline:none;border-color:var(--coral);box-shadow:0 0 0 2px rgba(217,125,126,.4)}
+  .artsel:focus{outline:none;border-color:var(--coral);box-shadow:0 0 0 2px rgba(239,138,139,.4)}
 
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
@@ -284,7 +284,7 @@
 </div>
 
 <script>
-const CO={paper:"#F6F3EC",ink:"#252855",coral:"#D97D7E",sage:"#7FBEB0",line:"#D3D4DD",muted:"#8A8DAA",faint:"#E4E0D4"};
+const CO={paper:"#F6F3EC",ink:"#252855",coral:"#EF8A8B",sage:"#8CD1C2",line:"#D3D4DD",muted:"#8A8DAA",faint:"#E4E0D4"};
 
 const CLUSTERS=[
   {id:"econ",num:"01",short:"Economia\ndell'esecuzione",full:"L'economia dell'esecuzione è cambiata",angle:-90},
@@ -517,7 +517,7 @@ render();renderSidebar();
 </script>
 <script>
 (function(){
-  const B={paper:"#F6F3EC",ink:"#252855",blue:"#252855",sage:"#7FBEB0",line:"#D3D4DD",muted:"#8A8DAA"};
+  const B={paper:"#F6F3EC",ink:"#252855",blue:"#252855",sage:"#8CD1C2",line:"#D3D4DD",muted:"#8A8DAA"};
   const NS="http://www.w3.org/2000/svg";
   const svg=document.getElementById("map2");
   const WHO={G1:"Gothelf",G2:"Gothelf",G3:"Gothelf",AR:"Aricò",DXC:"DEC / Paranjpe",NM:"Mattina",NN:"NN/g",NN2:"NN/g",SC:"Cicero",KA:"Allouche",DW:"Design is the work",MIT:"MIT CISR",IDEO:"IDEO"};
