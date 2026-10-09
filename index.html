@@ -36,6 +36,8 @@
     -webkit-font-smoothing:antialiased;
   }
   .wrap{max-width:1260px;margin:0 auto;padding:38px 24px 60px}
+  .brandbar{display:flex;align-items:center;margin:0 0 30px;padding-bottom:15px;border-bottom:1px solid var(--line)}
+  .brandbar b{font-family:var(--sans);font-weight:700;font-size:16px;letter-spacing:-.01em;color:var(--ink)}
   header.top{max-width:900px}
   .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--paper-muted);margin:0 0 16px;display:flex;align-items:center;gap:10px}
   .eyebrow .mk{width:10px;height:10px;background:var(--coral);display:inline-block}
@@ -132,6 +134,7 @@
   .srcs a{color:var(--paper-muted);text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--slate-2);word-break:break-word}
   .srcs a:hover{color:var(--coral);text-decoration-color:var(--coral)}
   footer .foot-note{color:var(--paper-muted);margin:0;font-size:10.5px}
+  footer .foot-rule{border:0;height:1px;background:var(--line);margin:22px 0 16px}
   /* zoom controls (bottom-left of each stage) */
   .zoom{position:absolute;bottom:14px;left:14px;display:flex;gap:6px;z-index:2}
   .zbtn{font-family:var(--mono);font-size:17px;line-height:1;width:30px;height:30px;display:flex;align-items:center;justify-content:center;background:var(--paper);border:1px solid var(--line);color:var(--ink);border-radius:999px;cursor:pointer;transition:.15s;padding:0}
@@ -191,6 +194,7 @@
 </head>
 <body>
 <div class="wrap">
+  <div class="brandbar"><b>Tangible</b></div>
   <header class="top">
     <p class="eyebrow">mappa concettuale — 14 letture su AI &amp; design · Aggiornato al 23.08.2026</p>
     <h1>Quando l'esecuzione diventa quasi gratuita,<br><em>il valore si sposta a monte.</em></h1>
@@ -279,7 +283,9 @@
       <li><span class="code">MIT</span><span class="meta"><b>Designing Decision Rights for AI</b> — <span class="au">Sebastian, Weill, Haskamp &amp; vom Brocke, MIT CISR, giu 2026</span> · <a href="https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke" target="_blank" rel="noopener">cisr.mit.edu</a></span></li>
       <li><span class="code">IDEO</span><span class="meta"><b>The IDEO Innovation Quotient 2026</b> — <span class="au">IDEO, apr 2026</span> · <a href="https://www.ideo.com/" target="_blank" rel="noopener">ideo.com</a> (report scaricabile; deep-link da verificare)</span></li>
     </ul>
+    <hr class="foot-rule">
     <p class="foot-note">Sintesi parafrasata a scopo di studio interno. Le formulazioni sono riassunti, non citazioni testuali.</p>
+    <p class="foot-note" style="margin-top:7px">Raccolta, selezione delle fonti e tesi a cura di Nicolò Volpato, elaborazione fatta con AI. Potrebbe contenere errori.</p>
   </footer>
 </div>
 
